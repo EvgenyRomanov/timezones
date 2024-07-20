@@ -1,0 +1,27 @@
+{
+    "name": "evgeny-romanov/timezones",
+    "description": "Demo-package to show time",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "EvgenyRomanov\\Timezones\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgeny Romanov",
+            "email": "e.romanov93@yandex.ru"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^11.9",
+        "illuminate/contracts": "^11.9"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EvgenyRomanov\\Timezones\\Providers\\TimezonesServiceProvider"
+            ]
+        }
+    }
+}
