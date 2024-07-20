@@ -1,7 +1,9 @@
 # Demo-package to show time
 
-Install:
+Install:  
+```sh
 composer require evgeny-romanov/timezones
+```
 
 Example:
 - http://0.0.0.0/timezones/Europe-London
