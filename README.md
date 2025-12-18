@@ -1,10 +1,17 @@
-# Demo-package to show time
+# ⏱️ Show Time Library (demo)
 
-Install:  
-```sh
+## 📝 Описание
+Данный demo-проект представляет собой Laravel-библиотеку, распространяемую через Packagist.
+
+## 🎯 Цели
+- Демонстрация создания библиотеки для фреймворка Laravel, распространяемой через основной репозиторий PHP
+- Следование стандартам PHP-разработки
+
+## 📦 Установка 
+```bash
 composer require evgeny-romanov/timezones
 ```
 
-Example:
-- http://0.0.0.0/timezones/Europe-London
-- http://0.0.0.0/timezones/utc
+## </> Example:
+- http://{{host}}/timezones/Europe-London
+- http://{{host}}/timezones/utc
